@@ -5,8 +5,8 @@ var swiper1 = new Swiper(".bookCarousel1", {
   centeredSlides: false,
 
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper1-button-next",
+    prevEl: ".swiper1-button-prev",
   },
 
   keyboard: {
@@ -33,14 +33,14 @@ var swiper1 = new Swiper(".bookCarousel1", {
 });
 
 // ******************** Popular-books slider ******************* //
-var swiper2 = new Swiper(".bookCarousel2", {
+var popularBooks = new Swiper(".popularBooks", {
   slidesPerView: 4,
   spaceBetween: 20,
   centeredSlides: false,
 
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper2-button-next",
+    prevEl: ".swiper2-button-prev",
   },
 
   keyboard: {
