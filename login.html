@@ -4,65 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Book Design</title>
+    <title>E-Book Magazine</title>
     <link rel='icon' type='image/png' sizes='16x16' href='./images/Favicon-logo.png'>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/style.css">
-
+    <script src="sidebar.js" type="text/javascript" defer></script>
 </head>
 
 <body>
 
     <!-- sidebar -->
     <div class="fixheight-container">
-        <div class="sidebar-panel">
-            <div class="m-item">
-                <a href="#" class="nav-item">
-                    <img src="./images/home.svg" class="v_panel" alt="home">
-                    <h5 class="mb-0">Home</h5>
-                </a>
-            </div>
-            <div class="m-item">
-                <a href="#" class="nav-item">
-                    <img src="./images/category.png" class="v_panel" alt="category">
-                    <h5 class="mb-0">Category</h5>
-                </a>
-            </div>
-            <div class="m-item">
-                <a href="#" class="nav-item">
-                    <img src="./images/category.png" class="v_panel" alt="saved">
-                    <h5 class="mb-0">Saved</h5>
-                </a>
-            </div>
-            <div class="m-item">
-                <a href="#" class="nav-item">
-                    <img src="./images/category.png" class="v_panel" alt="library">
-                    <h5 class="mb-0">Library</h5>
-                </a>
-            </div>
-            <div class="bottom-items">
-                <div class="m-item">
-                    <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="category">
-                        <h5 class="mb-0">Settings</h5>
-                    </a>
-                </div>
-                <div class="m-item">
-                    <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="saved">
-                        <h5 class="mb-0">Support</h5>
-                    </a>
-                </div>
-                <div class="m-item">
-                    <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="library">
-                        <h5 class="mb-0">Logout</h5>
-                    </a>
-                </div>
-            </div>
-        </div>
+        <sidebar-panel></sidebar-panel>
+
         <div class="login-wrapper">
             <div class="container-fluid h-100">
                 <div class="row h-100">
