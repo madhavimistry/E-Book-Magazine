@@ -136,11 +136,11 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--greycolor);
+    background: #888;
     border-radius: 8px;
 }
 
 ::selection {
-    background: #74253A;
+    background: #888;
     color: #fff;
 }
