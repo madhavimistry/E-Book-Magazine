@@ -34,19 +34,13 @@ class SideBar extends HTMLElement {
             <div class="bottom-items">
                 <div class="m-item">
                     <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="category">
+                        <img src="./images/category.png" class="v_panel" alt="setting">
                         <h5 class="mb-0">Settings</h5>
                     </a>
                 </div>
                 <div class="m-item">
                     <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="saved">
-                        <h5 class="mb-0">Support</h5>
-                    </a>
-                </div>
-                <div class="m-item">
-                    <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="library">
+                        <img src="./images/category.png" class="v_panel" alt="logout">
                         <h5 class="mb-0">Logout</h5>
                     </a>
                 </div>
