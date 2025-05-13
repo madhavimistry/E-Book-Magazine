@@ -15,32 +15,26 @@ class SideBar extends HTMLElement {
             </div>
             <div class="m-item">
                 <a href="#" class="nav-item">
-                    <img src="./images/category.png" class="v_panel" alt="category">
+                    <img src="./images/category.svg" class="v_panel" alt="category">
                     <h5 class="mb-0">Category</h5>
                 </a>
             </div>
             <div class="m-item">
                 <a href="#" class="nav-item">
-                    <img src="./images/category.png" class="v_panel" alt="saved">
+                    <img src="./images/saved.svg" class="v_panel" alt="saved">
                     <h5 class="mb-0">Saved</h5>
-                </a>
-            </div>
-            <div class="m-item">
-                <a href="#" class="nav-item">
-                    <img src="./images/category.png" class="v_panel" alt="library">
-                    <h5 class="mb-0">Library</h5>
                 </a>
             </div>
             <div class="bottom-items">
                 <div class="m-item">
                     <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="setting">
+                        <img src="./images/setting.svg" class="v_panel" alt="setting">
                         <h5 class="mb-0">Settings</h5>
                     </a>
                 </div>
                 <div class="m-item">
                     <a href="#" class="nav-item">
-                        <img src="./images/category.png" class="v_panel" alt="logout">
+                        <img src="./images/logout.svg" class="v_panel" alt="logout">
                         <h5 class="mb-0">Logout</h5>
                     </a>
                 </div>

@@ -199,6 +199,11 @@ button.login-buttons {
     left: auto;
 }
 
+.bookreading-section.bs-one .swiper-button-next,
+.bookreading-section.bs-one .swiper-button-prev{
+    top: 2em;
+}
+
 .homepage .sidebar-panel {
     position: sticky;
     overflow-y: auto;

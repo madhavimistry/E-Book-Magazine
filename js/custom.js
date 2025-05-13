@@ -65,3 +65,38 @@ var popularBooks = new Swiper(".popularBooks", {
     },
   },
 });
+
+
+// ******************** new releases -books slider ******************* //
+var popularBooks = new Swiper(".releaseBooks", {
+  slidesPerView: 4,
+  spaceBetween: 20,
+  centeredSlides: false,
+
+  navigation: {
+    nextEl: ".swiper3-button-next",
+    prevEl: ".swiper3-button-prev",
+  },
+
+  keyboard: {
+    enabled: true,
+  },
+  breakpoints: {
+    0: {
+      // Small screen
+      slidesPerView: 1,
+    },
+    768: {
+      // Tablet
+      slidesPerView: 2,
+    },
+    992: {
+      // Laptop
+      slidesPerView: 3,
+    },
+    1200: {
+      // Desktop
+      slidesPerView: 4,
+    },
+  },
+});
