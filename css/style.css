@@ -271,10 +271,16 @@ input.search-input {
 }
 
 .notify-box {
-    padding: 20px 22px;
+    padding: 16px 20px;
     border: 1px solid #000;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.story-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .box_icon {
