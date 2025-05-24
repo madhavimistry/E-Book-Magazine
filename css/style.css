@@ -396,4 +396,41 @@ input.search-input {
     flex-direction: column;
     gap: 30px;
     height: 100%;
+    border: 1px solid #000;
+    padding: 24px 0;
+    justify-content: space-between;
+}
+
+.next_arrow::after {
+    content: url(../images/right-arrow.svg) !important;
+    font-size: 0;
+}
+
+.next_arrow,
+.prev_arrow {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #fff;
+}
+
+.prev_arrow::after {
+    content: url('../images/left-arrow.svg') !important;
+    font-size: 0;
+}
+
+.pagination {
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    padding: 24px 0;
+}
+
+.page_info {
+    width: 7em;
+    text-align: center;
 }
